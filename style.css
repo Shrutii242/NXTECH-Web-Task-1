@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Mukta+Malar&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(rgb(240, 157, 174), rgb(247, 126, 126));
+  overflow-y: hidden;
+}
+.container {
+  display: flex;
+  margin: 103px 504px;
+  padding: 37px 0px;
+  background-color: rgb(250, 219, 224);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Crete Round', serif;
+  border-radius: 15px;
+  box-shadow: -5px 7px 43px 17px rgb(230, 161, 173);
+}
+
+.img {
+  border-radius: 50%;
+  height: 119px;
+  width: 119px;
+  background-image: url("images/billionera.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 1px 2px 1px rgb(230, 161, 173);
+}
+
+#slide {
+  width: 90%;
+  height: 4px;
+  margin: 9px 0px;
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(247, 81, 108);
+}
+
+#slide::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 5px solid white;
+  border-radius: 50%;
+  background: rgb(247, 81, 108);
+}
+.time {
+  font-size: 13px;
+  margin: -3px 0px;
+}
+
+.current_time {
+  position: absolute;
+  left: 40%;
+}
+
+.songtime {
+  position: absolute;
+  right: 40%;
+}
+
+.btn {
+  display: flex;
+  border-radius: 50%;
+}
+
+.backward_btn {
+  margin: 41px 42px;
+  padding: 4px 6px;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+  cursor: pointer;
+  color: rgb(247, 81, 108);
+  background-color: white;
+  border: none;
+}
+
+.forward_btn {
+  margin: 41px 42px;
+  padding: 4px 6px;
+  border-radius: 50%;
+  position: absolute;
+  right: 40%;
+  cursor: pointer;
+  color: rgb(247, 81, 108);
+  background-color: white;
+  border: none;
+}
+
+.playbtn {
+  margin: 25px 42px;
+  padding: 14px 18px;
+  border-radius: 50%;
+  height: 59px;
+  width: 59px;
+  cursor: pointer;
+  background-color: rgb(247, 81, 108);
+  color: white;
+  border: none;
+}
+
+.div {
+  font-size: 24px;
+  margin: 27px 0px;
+}
+
+.artistname {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img"></div>
+      <div class="div">
+        <div class="songname">Bilionera</div>
+        <div class="artistname">Otilia</div>
+      </div>
+
+      <audio src="music/Bilionera.mp3" class="audi"></audio>
+      <input type="range" value="0" id="slide" />
+      <div class="time">
+        <span class="current_time">00.00</span>
+        <span class="songtime">00.00</span>
+      </div>
+
+      <div class="btn">
+        <button class="backward_btn">
+          <i class="fa-solid fa-backward"></i>
+        </button>
+        <button class="playbtn">
+          <i class="fa-solid fa-play"></i>
+        </button>
+        <button class="forward_btn">
+          <i class="fa-solid fa-forward"></i>
+        </button>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/c25c329136.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
